@@ -79,13 +79,6 @@ body {
     color: white;
 }
 
-@media (max-width: 667px){
-    .advice-container{
-        width: 100%;
-    }
-
-}
-
 @media (max-width: 375px){
     .advice-container {
         width: 100%;
