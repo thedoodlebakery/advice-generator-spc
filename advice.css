@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 36%;
+    width: 512px;
     height: auto;
     border-radius: 25px;
     padding: 10px 0px;
@@ -79,10 +79,16 @@ body {
     color: white;
 }
 
-@media (max-width: 600px){
+@media (max-width: 667px){
+    .advice-container{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 375px){
     .advice-container {
-        width: 95%;
-        margin: 25% 3%;
+        width: 100%;
         align-content: center;
         justify-content: center;
     }
